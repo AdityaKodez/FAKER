@@ -3,19 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAKER</title>
-    <link rel="shortcut icon"href="./icon.png" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
+    <title>FAKER - The Unkillable Demon King | League of Legends Legend</title>
+    <meta name="description" content="A tribute to Lee Sang-hyeok (Faker), the greatest League of Legends player of all time. 5-time World Champion and T1's legendary mid-laner.">
+    <meta name="keywords" content="Faker, League of Legends, T1, eSports, World Champion, Lee Sang-hyeok">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FAKER - The Unkillable Demon King">
+    <meta property="og:description" content="A tribute to Lee Sang-hyeok (Faker), the greatest League of Legends player of all time. 5-time World Champion and T1's legendary mid-laner.">
+    <meta property="og:image" content="./faker.webp">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FAKER - The Unkillable Demon King">
+    <meta name="twitter:description" content="A tribute to Lee Sang-hyeok (Faker), the greatest League of Legends player of all time.">
+    <meta name="twitter:image" content="./faker.webp">
+    
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body>
+<div class="loader">
+    <div class="loader-content">
+        <h1>FAKER</h1>
+        <div class="loader-bar"></div>
+    </div>
+</div>
+<nav class="navbar">
+    <div class="nav-logo">FAKER</div>
+    <div class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#bio" class="nav-link">Bio</a>
+        <a href="#championships" class="nav-link">Championships</a>
+        <a href="#quotes" class="nav-link">Quotes</a>
+    </div>
+    <div class="scroll-progress"></div>
+</nav>
 <div class="fixed"></div>
     <div class="main">
-        <div class="page1">
+        <div class="page1" id="home">
             <h1>FAKER</h1><h1>THE GOAT</h1>
             <div class="shape">
                 <div class="hero1"></div>
@@ -26,7 +54,7 @@
                 <video class="video1"autoplay loop muted src="./video.mp4"></video>
             </div>
         </div>
-        <div class="page2">
+        <div class="page2" id="bio">
     <div class="moving">
      <div class="CON">
         <h1>THE</h1>
@@ -57,7 +85,7 @@
     </div>
     
         </div>
-        <div class="page3">
+        <div class="page3" id="championships">
          
            <div class="elem-container">
             <div class="elem" data-image="2014.jpg">
@@ -82,7 +110,7 @@
             </div>
         </div>
            </div>
-           <div class="page4">
+           <div class="page4" id="quotes">
             <div class="acha">
             <div class="anda"></div>
             <p>QUOTES
@@ -101,6 +129,39 @@
               </div>
              
           </div>
+          <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FAKER</h3>
+                    <p>The Unkillable Demon King</p>
+                    <p class="footer-subtitle">Lee Sang-hyeok</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#bio">Biography</a>
+                    <a href="#championships">Championships</a>
+                    <a href="#quotes">Quotes</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow</h4>
+                    <div class="social-links">
+                        <a href="https://www.twitch.tv/faker" target="_blank" rel="noopener">Twitch</a>
+                        <a href="https://twitter.com/faker" target="_blank" rel="noopener">Twitter</a>
+                        <a href="https://www.youtube.com/c/t1" target="_blank" rel="noopener">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Team</h4>
+                    <a href="https://t1.gg" target="_blank" rel="noopener">T1 Official</a>
+                    <a href="https://lolesports.com" target="_blank" rel="noopener">LoL Esports</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FAKER Tribute. All rights reserved.</p>
+                <p class="footer-note">Fan-made tribute website. Not officially affiliated with T1 or Riot Games.</p>
+            </div>
+          </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
